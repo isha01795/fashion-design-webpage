@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> 
+
+    <title>pheasant</title>
+<style>
+    .cont{
+        width: 30rem;
+        float: left;
+        margin: 0rem 5rem;
+    }
+    .box2{
+          box-shadow:3px 2px 5px 5px rgb(99, 97, 97);
+          margin-top: 5rem;
+            width: 30rem;
+            height: 25rem;
+            padding: 30px 10px;
+            
+    }
+    .footer{
+        width: 100vw;
+        position: fixed;
+        bottom: 0%;
+
+    }
+  
+    .sidebar{
+        float: right;
+        /* margin-bottom: 5rem; */
+    }
+</style>
+</head>
+<body>
+
+    <div class="collapse " id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <li class="nav-item">
+                <a class="nav-link text-white h5" href="log.html"  >Sign up/Log in</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white h5" href="#" id="navbarScrollingDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+                    <li><a class="dropdown-item" href="#">Diploma</a></li>
+                    <li><a class="dropdown-item" href="#">Short courses</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white h5" href="#" id="navbarScrollingDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Academics
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="#">Our Teachers</a></li>
+                    <li><a class="dropdown-item" href="#">Teaching Methodology</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white h5" href="#">Admissions</a>
+            </li>
+    
+            <li class="nav-item">
+                <a class="nav-link text-white h5" href="/pheasant.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white h5" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white h5" href="/pheasant.html">Contact</a>
+            </li>
+    
+        </div>
+    </div>
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav> 
+
+ 
+<!-- container -->
+<div class="cont">
+    <!-- <button class="sign" id="option2">Sign_up</button> -->
+    <form class="box2" id="block2">
+
+        <div class="mb-3 ">
+          <label for="exampleInputName" class="form-label box">Name</label>
+          <input type="text"  class="form-control" id="exampleInputName"  name="" id="">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign up</button>
+      </form>
+</div>
+      
+<!-- sidebar -->
+<div class="sidebar my-5 d-flex flex-column align-items-stretch flex-shrink-0 bg-white" style="width: 380px;">
+    <a href="/" class="d-flex align-items-center flex-shrink-0 p-3 link-dark text-decoration-none border-bottom">
+      <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-5 fw-semibold">Trending Courses</span>
+    </a>
+    <div class="list-group list-group-flush border-bottom scrollarea">
+      <a href="#" class="list-group-item list-group-item-action active py-3 lh-tight" aria-current="true">
+        <div class="d-flex w-100 align-items-center justify-content-between">
+          <strong class="mb-1">Multimedia and Animation </strong>
+          <small>20Jun</small>
+        </div>
+        <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.</div>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+        <div class="d-flex w-100 align-items-center justify-content-between">
+          <strong class="mb-1">Diploma in Fashion Designing</strong>
+          <small class="text-muted">01Jul</small>
+        </div>
+      
+       
+        <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.</div>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+        <div class="d-flex w-100 align-items-center justify-content-between">
+          <strong class="mb-1">Bachelor in Fashion Designing</strong>
+          <small class="text-muted">01Jul</small>
+        </div>
+        <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.</div>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+        <div class="d-flex w-100 align-items-center justify-content-between">
+          <strong class="mb-1">Short Courses</strong>
+          <small class="text-muted">20Jun</small>
+        </div>
+        <div class="col-10 mb-1 small">Some placeholder content in a paragraph below the heading and date.</div>
+      </a>
+   
+    </div>
+  </div>
+   
+
+    <div class="footer">
+        <footer class="footer mt-auto py-3 bg-dark">
+            <div class="container">
+                <span class="text-muted"> Privacy Policy</span> &nbsp; &nbsp;
+                <span class="text-muted"> Services</span> &nbsp; &nbsp;
+                <span class="text-muted">&copy;2021|pheasant</span>
+            </div>
+        </footer>
+    </div>
+
+    
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+ crossorigin="anonymous">
+</script>
+
+</body>
+</html>
